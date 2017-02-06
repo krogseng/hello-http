@@ -14,21 +14,23 @@
     >localhost:3000/greeting 
     responds 'hello stranger'
   * personalized greeting
-    >localhost:3000/greeting/<name>
-    responds 'hello <name>'
+    >localhost:3000/greeting/lynn
+    responds 'hello lynn'
   * personalized salutation
-    >localhost:3000/<name>?salutation=<salutation>
-    responds '<salutation> <name>  -- such as 'bonjour earnest'
+    >localhost:3000/lynn?salutation=bonjour
+    responds bonjour lynn  
   * greeting by cowsay
-    >localhost:3000/greeting/<name>?salutation=<salutation>&format=cowsay
-    responds 
-    '< hello name >
+    >localhost:3000/greeting/lynn?salutation=bonjour&format=cowsay
+    responds <pre><code>
+    "< hello name >
      ------------
           \   ^__^
            \  (oo)\_______
               (__)\       )\/\
                   ||----w |
                   ||     ||
+      "
+                 
   * fact
     >localhost:3000/fact
     responds with an interesting HTTP fact
