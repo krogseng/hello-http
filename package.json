@@ -2,14 +2,15 @@
     "name": "hello-http",
     "version": "1.0.0",
     "description": "Hello World HTTP server. This server application will establish connection, and other small things.",
-    "main": "index.js",
+    "main": "server.js",
     "dependencies": {},
     "devDependencies": {
         "chai-http": "^3.0.0",
         "superagent": "^3.4.1"
     },
     "scripts": {
-        "test": "mocha"
+        "test": "mocha",
+        "watch": "nodemon"
     },
     "repository": {
         "type": "git",
