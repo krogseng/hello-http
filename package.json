@@ -4,7 +4,7 @@
     "description": "Hello World HTTP server. This server application will establish connection, and other small things.",
     "main": "server.js",
     "dependencies": {
-        "cowsay": "cowsay"
+        "cowsay": "^4.1.2"
     },
     "devDependencies": {
         "chai": "^3.5.0",
