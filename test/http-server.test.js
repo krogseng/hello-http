@@ -9,7 +9,7 @@ const server = require('../lib/http-server');
 // if I build a class instead...?
 
 
-describe('testing http server with chai-http', () => {
+describe('testing http request/response with chai-http', () => {
 
     const request = chai.request(server);
 
