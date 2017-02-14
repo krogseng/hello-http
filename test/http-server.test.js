@@ -12,7 +12,7 @@ const factArray = ['Development of HTTP was initiated by Tim Berners-Lee at CERN
 // if I build a class instead...?
 
 
-describe('testing http server with chai-http', () => {
+describe('testing http request/response with chai-http', () => {
 
     const request = chai.request(server);
 
